@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>HomeWork Ajax</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="friendsList">
+    <h2>友達に会う</h2>
+    <ul id='lista'></ul>
+    <figure id="image">
+      <img class="loaders" src='https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif' />
+    </figure>
+    <button id='boton'>友達に会う</button>
+  </div>
+  
+  <div id="searchFriends">
+    <span id='amigo'></span>
+    <input id='input' placeholder="友達のIDを書く"></input>
+    <button id='search'>探す</button>
+  </div>
+
+  <div id="deleteFriends">
+    <span id='success'></span>
+    <input id='inputDelete' placeholder="削除する友達のIDを書きますく"></input>
+    <button id='delete'>消去</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
